@@ -33,13 +33,13 @@ nav a{
     font-weight: 700;
 }
 
-.banner-title{
+.title{
     color:#131313;
     text-align: center;
     font-size: 64px;
     font-weight: 700;
 }
-.bannerdescription{
+.description{
     color:  #727272;
     text-align: center;
     font-size: 16px;
@@ -54,6 +54,7 @@ nav a{
     font-size: 20px;
     font-weight: 600;
     margin-top: 30px;
+    border: 0px;
 }
 .banner-content{
     max-width: 860px;
@@ -68,6 +69,45 @@ nav a{
 .banner img{
     width: 100%;
 }
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.feature-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.feature-images img{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    margin: 24px;
+    box-shadow: 2px 15px 10px;
+    border-radius: 10px;
+}
+.feature-title{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    width: 469px;
+}
+span{
+    color: #FF900E;
+    font-weight: 700;
+}
+.featue-content{
+    width: 40%;
+}
+
+
+
+
 @media screen and (max-width: 576px) {
     header{
         padding: 5px;
